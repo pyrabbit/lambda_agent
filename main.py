@@ -13,7 +13,7 @@ from openai.types.beta.threads import Run
 
 OPENAI_ASSISTANT_ID = "asst_RwXjODGNixFm1R4pfATK1546"
 
-client = OpenAI(api_key="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")
+client = OpenAI()
 
 logger = structlog.get_logger()
 
